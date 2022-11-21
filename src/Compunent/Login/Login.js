@@ -47,7 +47,7 @@ navigate(from, {replace: true });
           </label>
           <input name='password' type="password" placeholder="password" className="input input-bordered" required/>
           <label className="label">
-            <a href="httos//sakib.com" className="label-text-alt link link-hover">Forgot password?</a>
+            <a href="#" className="label-text-alt link link-hover">Forgot password?</a>
           </label>
         </div>
         
@@ -57,7 +57,7 @@ navigate(from, {replace: true });
           loading && <p>Loadding...</p>
         }
           <button className="btn hover:bg-error-content text-white bg-error border-none">Login</button>
-         <a href='https//sakib.com' className=' mt-2'> <Link  to="/signin"> Sign In </Link></a>
+         <a className=' mt-2'> <Link  to="/signin"> Sign In </Link></a>
           
         </div>
         </form>

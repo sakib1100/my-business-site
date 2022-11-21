@@ -1,7 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import About from '../About/About';
-
+import Clock from '../Clock/Clock';
+import Footer from '../Footer/Footer';
 import New from '../New/New';
 import image from './../../Image/portrait-young-happy-girl-holding-shopping-bags-removebg-preview (1).png';
 const Home = () => {
@@ -10,7 +11,7 @@ const Home = () => {
 <div> 
 <div className="hero min-h-screen ">
   <div className="hero-content flex-col lg:flex-row">
-    <img src={image} className="lg:w-5/12 max-sm:w-10/5 rounded-lg " alt="image2" />
+    <img src={image} className="lg:w-5/12 max-sm:w-10/5 rounded-lg " />
     <div>
       <h1 className="text-5xl font-bold max-sm:text-3xl">Online Shopping!</h1>
       <p className="py-6">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi.</p>
@@ -23,9 +24,9 @@ const Home = () => {
 <About></About>
 
 <New></New>
+<Clock></Clock>
 
-
-<Home />
+<Footer />
 </div>
 
     );

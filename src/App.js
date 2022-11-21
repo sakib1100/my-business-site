@@ -25,7 +25,6 @@ function App() {
 
   </Route>
   <Route path="/login" element={<Login></Login>}></Route>
- 
   <Route path="/new" element={<New></New>}></Route>
   <Route path="/signin" element={<Signin></Signin>}></Route>
 </Routes>
