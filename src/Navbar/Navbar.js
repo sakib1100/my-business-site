@@ -16,12 +16,8 @@ const Navbar = () => {
           <button type="button" className="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
               <span className="navbar-toggler-icon"></span>
           </button>
-          <div className="collapse navbar-collapse justify-content-between" id="navbarCollapse">
-              <div className="navbar-nav">
-            
-              </div>
-           
-              <div className="navbar-nav text-center font-bold">
+          <div className="collapse navbar-collapse max-sm:justify-center lg:justify-end" id="navbarCollapse">
+              <div className="navbar-nav  font-bold">
               <Link to="/home" className="nav-item nav-link active">Home</Link>
               <Link to="/shop" className="nav-item nav-link ">Shop</Link>
               <Link to="/order" className="nav-item nav-link">Order</Link>

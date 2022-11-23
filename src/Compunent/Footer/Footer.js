@@ -5,7 +5,7 @@ const Footer = () => {
        
   <footer class="footer footer-center p-10 bg-base-200 text-base-content rounded">
   
-    <p>Copyright © 2022 - All right reserved by ACME Industries Ltd</p>
+    <p>Copyright © 2022 - All right reserved by Mostafa Mohsin Sakib</p>
   
 </footer>
         
